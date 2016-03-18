@@ -1,0 +1,94 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 500%;
+}
+
+.ditto {
+  text-align: center;
+}
+
+#trollface {
+  width: 20%;
+  length: 20%;
+  position: relative;
+  animation: trollface2 0.5s infinite;
+}
+
+#trollface2 {
+  width: 20%;
+  length: 20%;
+  position: relative;
+  animation: trollface 0.1s infinite;
+}
+
+#trollface3 {
+  width: 20%;
+  length: 20%;
+  position: relative;
+  animation: trollface 0.1s infinite;
+}
+
+@keyframes trollface {
+  0% {
+    left: 400px;
+    top: 0px;
+  }
+  25% {
+    left: 800px;
+    top: 0px;
+  }
+  50% {
+    left: -800px;
+    top: 800px;
+  }
+  75% {
+    left: 800px;
+    top: -800px;
+  }
+  100% {
+    left: -400px;
+    top: 0px;
+  }
+}
+
+@keyframes trollface2 {
+  0% {
+    left: 0px;
+    top: 800px;
+  }
+  25% {
+    left: 0px;
+    top: 800px;
+  }
+  50% {
+    left: 800px;
+    top: -800px;
+  }
+  75% {
+    left: -800px;
+    top: 800px;
+  }
+  100% {
+    left: 0px;
+    top: -800px;
+  }
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1000%;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/-Ns1tHZHNoF8/Vehj_Z2ImgI/AAAAAAAAD0E/-T_xlu7dGCA/w800-h800/efd49429b78f84c4eec4371310ab5f4a.gif");
+}
